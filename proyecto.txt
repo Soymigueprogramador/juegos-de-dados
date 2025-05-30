@@ -1,0 +1,75 @@
+Ejemplo de Proyecto
+
+Hacer proyecto para un juego que tenga el siguiente menú:
+1- Jugar
+2- Estadística
+0- Salir
+
+Jugar:
+	El juego consiste en que cada jugador lanzará dados en una cantidad indefinida de rondas. En cada ronda se lanzarán 5 dados (de 6 caras) y de esos dados se obtendrá el puntaje de la ronda
+	El puntaje de la ronda se obtendrá del dado con mayor valor.
+	El puntaje total será la sumatoria de los puntajes obtenidos en cada ronda
+	El juego finalizará cuando alguno de los jugadores llegue (o supere) los 25 puntos
+	
+El jugador deberá poder jugar contra la CPU.
+	Cada jugador tirará los dados de manera alternativa 
+
+	
+Estadística:
+	Muestra el ganador en la menor cantidad de rondas y las rondas en que ganó
+
+Variantes:
+Ingrese el nombre del jugador
+Estadísticas sea un ranking de los mejores 10 jugadores
+Se tira una moneda para decidir quién empieza
+	
+
+Ejemplo:
+Opción Jugar:
+
+Yo:
+CPU: 
+
+1 ronda
+YO: 
+Puntos acumulados: 0
+Tirada: 2 3 5 1 2
+Puntos obtenidos en la ronda: 5
+Puntos totales: 5
+
+
+CPU: 
+Puntos acumulados: 0
+Tirada: 1 2 3 1 1
+Puntos obtenidos en la ronda: 3
+Puntos totales: 3
+
+2 ronda: 
+YO: 
+Puntos acumulados: 5
+Tirada: 1 1 1 1 2
+Puntos obtenidos en la ronda: 2
+Puntos totales: 7
+
+CPU: 
+Puntos acumulados: 3
+Tirada: 6 3 2 5 3
+Puntos obtenidos en la ronda: 6
+Puntos totales: 9
+
+. . .
+
+X Ronda:
+YO: 
+Puntos acumulados: 23
+Tirada: 6 3 2 5 6
+Puntos obtenidos en la ronda: 6
+Puntos totales: 29
+
+CPU: 
+Puntos acumulados: 20
+Tirada: 1 1 1 1 1
+Puntos obtenidos en la ronda: 1
+Puntos totales: 21
+
+Ganador de la partida: YO con 29 puntos !.
